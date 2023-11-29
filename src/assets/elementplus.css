@@ -1,0 +1,20 @@
+/* Element Plus - Carousel Homepage */
+#carousel .el-carousel__container {
+    height: 100vh;
+}
+
+/* Element Plus - Casousel Our Project */
+#header .el-carousel__container {
+    height: 50vh;
+}
+#our-team .el-carousel {
+    overflow: hidden;
+    height: auto !important;
+}
+
+#our-team .el-carousel__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% + 55px);
+}
