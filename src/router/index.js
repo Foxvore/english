@@ -6,28 +6,27 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Homepage',
-      component: () => import('../views/Homepage.vue')
+      redirect: '/unit-4'
     },
     {
-      path: '/motion-2d',
-      name: 'Motion 2D',
-      component: () => import('../views/Motion2D.vue')
+      path: '/unit-4',
+      name: 'Unit 4',
+      component: () => import('../views/Unit4.vue')
     },
     {
-      path: '/software',
-      name: 'Software',
-      component: () => import('../views/Software.vue')
+      path: '/unit-9',
+      name: 'Unit 9',
+      component: () => import('../views/Unit9.vue')
     },
     {
-      path: '/tutorial',
-      name: 'Tutorial',
-      component: () => import('../views/Tutorial.vue')
+      path: '/unit-13',
+      name: 'Unit 13',
+      component: () => import('../views/Unit13.vue')
     },
     {
-      path: '/our-project',
-      name: 'Our Project',
-      component: () => import('../views/OurProject.vue')
+      path: '/our-team',
+      name: 'Our Team',
+      component: () => import('../views/OurTeam.vue')
     },
   ]
 })
