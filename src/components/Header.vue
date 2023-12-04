@@ -1,24 +1,26 @@
-<script setup></script>
+<script setup>
+const card = defineProps(["title", "subtitle"]);
+</script>
 
 <template>
   <div class="img-background">
     <div
-      class="header absolute flex h-screen w-full items-center justify-center"
+      class="carousel absolute flex h-[100vh] w-full items-center justify-center z-40"
     >
-      <div class="absolute h-screen w-full bg-black opacity-50 z-5" />
       <div>
         <p
           class="text-9xl text-white text-center font-bold drop-shadow-lg tracking-widest"
         >
-          MOTION 2D
+          {{ card.title }}
         </p>
         <p
           class="text-3xl text-white text-center font-bold drop-shadow-lg tracking-wider"
         >
-          by Tri'sta
+          {{ card.subtitle }}
         </p>
       </div>
     </div>
+    <div class="absolute h-[50vh] w-full bg-black opacity-50 z-10" />
   </div>
 </template>
 
@@ -33,8 +35,7 @@
   position: relative;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.5);
 }
-
-.header {
+.carousel {
   font-family: "Bebas Neue", sans-serif !important;
 }
 
@@ -44,7 +45,7 @@
   }
 
   .text-3xl {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 </style>
