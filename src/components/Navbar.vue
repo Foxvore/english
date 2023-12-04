@@ -55,36 +55,29 @@ const mobile_mode = () => {
         <ul class="text-lg">
           <li>
             <button class="btn-router" @click="mobile_mode">
-              <router-link class="tracking-wider" :to="{ name: 'Homepage' }">
-                Homepage
+              <router-link class="tracking-wider" :to="{ name: 'Unit 4' }">
+                Unit 4
               </router-link>
             </button>
           </li>
           <li>
             <button class="btn-router" @click="mobile_mode">
-              <router-link class="tracking-wider" :to="{ name: 'Motion 2D' }">
-                What is Motion 2D?
+              <router-link class="tracking-wider" :to="{ name: 'Unit 9' }">
+                Unit 9
               </router-link>
             </button>
           </li>
           <li>
             <button class="btn-router" @click="mobile_mode">
-              <router-link class="tracking-wider" :to="{ name: 'Software' }">
-                Software
+              <router-link class="tracking-wider" :to="{ name: 'Unit 13' }">
+                Unit 13
               </router-link>
             </button>
           </li>
           <li>
             <button class="btn-router" @click="mobile_mode">
-              <router-link class="tracking-wider" :to="{ name: 'Tutorial' }">
-                Tutorial
-              </router-link>
-            </button>
-          </li>
-          <li>
-            <button class="btn-router" @click="mobile_mode">
-              <router-link class="tracking-wider" :to="{ name: 'Our Project' }">
-                Our Project
+              <router-link class="tracking-wider" :to="{ name: 'Our Team' }">
+                Our Team
               </router-link>
             </button>
           </li>
