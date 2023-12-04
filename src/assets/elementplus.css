@@ -18,3 +18,35 @@
     align-items: center;
     height: calc(100% + 55px);
 }
+
+#unit-content .el-tabs__item.is-active,
+#unit-content .el-tabs__item:hover {
+    color: var(--primary-color) !important;
+}
+
+#unit-content .el-table {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+#unit-content .el-table .cell {
+    text-align: center !important;
+}
+
+#unit-content .el-table--border th.el-table__cell {
+    border: none;
+    border-bottom: none !important;
+}
+
+#unit-content .el-tabs__active-bar {
+    background-color: var(--primary-color) !important;
+}
+
+#unit-content .el-table thead.is-group th.el-table__cell {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
