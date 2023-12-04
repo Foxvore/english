@@ -11,10 +11,7 @@ onMounted(() => {
 
 <template>
   <section id="header">
-    <Header
-      title="Unit 4 English Project"
-      subtitle="Pronoun Reference, Future Tense, Modal Auxiliaries, & Making Plan"
-    />
+    <Header title="Unit 4 English Project" subtitle="by Tri'sta" />
   </section>
 
   <section id="unit-content" class="px-[5vw] py-[5vh] h-auto">
