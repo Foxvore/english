@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted } from "vue";
 import Header from "@/components/Header.vue";
+import Unit4 from "@/components/homepage/Unit4.vue";
 import Definition from "@/components/homepage/Definition.vue";
 import Software from "@/components/homepage/Software.vue";
 import Tutorial from "@/components/homepage/Tutorial.vue";
@@ -16,8 +17,8 @@ onMounted(() => {
     <Header />
   </section>
 
-  <section id="definition" class="px-[10vw] py-[8vh] h-auto">
-    <Definition />
+  <section id="unit-4" class="px-[10vw] py-[8vh] h-auto">
+    <Unit4 />
   </section>
 
   <div class="px-[5vw]">
